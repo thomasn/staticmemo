@@ -43,10 +43,10 @@ p.aligncenter { padding-bottom: 15px; }
 
 h1, h2, h3, h4, h5, h6 { text-transform: lowercase; }
 
-h1, h2 { color: rgb(255, 255, 255); font-family: "Gill Sans", Corbel, Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", sans-serif; line-height: 0.8em; }
-h1 a:link, h1 a:hover, h1 a:active, h1 a:visited, h2 a:link, h2 a:hover, h2 a:active, h2 a:visited { color: rgb(255, 255, 255); }
-h1 { font-size: 7.7em; letter-spacing: 0.2em; }
-h2 { font-size: 2em; letter-spacing: 0.02em; padding-left: 5px; }
+h1, h2 { font-family: "Gill Sans", Corbel, Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", sans-serif; }
+h1 a:link, h1 a:hover, h1 a:active, h1 a:visited { color: rgb(255, 255, 255); }
+h1 { color: rgb(255, 255, 255); font-size: 7.7em; letter-spacing: 0.2em; }
+h2 { color: rgb(77, 78, 58); font-size: 2em; letter-spacing: 0.02em; padding: 0 0 25px 1%; }
 
 h3, h4, h5, h6 { font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif; }
 h3 { color: rgb(77, 78, 58); font-size: 2.3em; padding: 0 0 10px 1%; }
@@ -96,11 +96,11 @@ dd { margin-bottom: 18px; }
 /* Header and navigation */
 
 .header { background: rgb(33, 80, 161) url(images/structure.jpg) no-repeat top right; height: 350px; }
-.banner { padding: 230px 0 0 20px; margin: 0 0 0 10px; }
+.banner { padding: 230px 0 0 0; margin: 0 0 0 1%; }
 
 /* Main content */
 
-.content { clear: both; padding: 30px 0 0 0; }
+.content { clear: both; padding: 0; }
 
 .twocol { float: left; font-size: 1.15em; margin: 0 0 20px 0; padding: 0 1%; width: 48%; }
 
@@ -142,7 +142,7 @@ img.aligncenter { clear: both; display: block; margin-left: auto; margin-right: 
 img.alignleft, img.alignright, img.aligncenter { margin-bottom: 15px; }
 .aligncenter img { padding: 0 0.5em; }
 
-iframe { display: block; margin: 0 auto 40px auto; max-width: 95%; }
+iframe { display: block; margin: 0 auto 40px auto; max-width: 100%; }
 
 /** End IMAGES AND EMBEDS
 -------------------------------------------------------------- **/
@@ -155,8 +155,6 @@ iframe { display: block; margin: 0 auto 40px auto; max-width: 95%; }
 @media (max-width: 685px) {
 
     h1 { letter-spacing: 0.05em; }
-    h3 { padding-left: 0; text-align: center; }
-    .content { padding-top: 15px; }
     .twocol { float: none; margin: 0; padding: 0 3%; width: auto; }
     .threecol { float: none; padding: 0 3%; width: auto; }
     img.alignleft { padding: 0 0 15px 0; }
@@ -170,6 +168,7 @@ iframe { display: block; margin: 0 auto 40px auto; max-width: 95%; }
 
     .header { height: 270px; }
     .banner { background-position: 50% 30%; margin: 0; padding: 160px 0 0 0; text-align: center; }
+    h2 { text-align: center; }
 
 }
 
