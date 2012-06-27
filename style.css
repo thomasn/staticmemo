@@ -109,7 +109,7 @@ dd { margin-bottom: 18px; }
 
 .fb-like { margin: 0 0 15px 0; }
 .fb-like, .fb-like span, .fb-like.fb_iframe_widget span iframe { margin-left: 10%; width: 90%!important; }
-.twitter { border: 1px solid red; height: 30px; }
+.twitter { height: 30px; }
 form { margin: 20px 0 5px 0; }
 
 /* Footer */
