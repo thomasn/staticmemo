@@ -172,6 +172,11 @@ iframe { display: block; margin: 0 auto 40px auto; max-width: 100%; }
 
 }
 
+@media(max-width:375px){
+    .temp-banner{
+       font-size: 80px;
+    }
+}
 /** End RESPONSIVE STRUCTURE
 -------------------------------------------------------------- **/
 
