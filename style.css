@@ -45,11 +45,11 @@ h1, h2, h3, h4, h5, h6 { text-transform: lowercase; }
 
 h1, h2 { font-family: "Gill Sans", Corbel, Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", sans-serif; }
 h1 a:link, h1 a:hover, h1 a:active, h1 a:visited { color: rgb(255, 255, 255); }
-h1 { color: rgb(255, 255, 255); font-size: 7.7em; letter-spacing: 0.2em; }
+h1 { color: rgb(255, 255, 255); font-size: 3.2em; letter-spacing: 0.2em; }
 h2 { color: rgb(77, 78, 58); font-size: 2em; letter-spacing: 0.02em; padding: 0 0 25px 1%; }
 
 h3, h4, h5, h6 { font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif; }
-h3 { color: rgb(77, 78, 58); font-size: 2.3em; padding: 0 0 10px 1%; }
+h3 { color: rgb(77, 78, 58); font-size: 1.6em; padding: 0 0 10px 1%; }
 h3.aligncenter { margin: 20px 0 20px 0; }
 h4 { color: rgb(77, 78, 58); font-size: 2em; }
 h5, h6 { color: rgb(136, 139, 119); }
@@ -63,6 +63,7 @@ cite, em, i { font-style: italic; }
 .clear { border: 0; clear: both; display: block; height: 0; }
 .hidden { display: none; }
 .small { font-size: 0.83em; }
+.copyright { font-size: 0.83em; }
 strong { font-weight: bold; }
 
 /** End MAIN STYLES AND COLOURS
