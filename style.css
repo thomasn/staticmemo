@@ -64,6 +64,7 @@ cite, em, i { font-style: italic; }
 .hidden { display: none; }
 .small { font-size: 0.83em; }
 .copyright { font-size: 0.83em; }
+.postaladdress { font-size: 1.6em; }
 strong { font-weight: bold; }
 
 /** End MAIN STYLES AND COLOURS
